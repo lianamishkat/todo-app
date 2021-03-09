@@ -1,0 +1,96 @@
+:root {
+    --bright-blue: #60c4f7;
+    --dark-blue: #000320;
+  }
+  
+  body {
+    background-color: #0b132b;
+    font-family: "Courier New", Courier, monospace;
+    background-image: url("flower.jpg");
+    background-blend-mode: screen;
+    background-size: cover;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-align: center;
+    letter-spacing: 6px;
+    font-weight: bold;
+    padding: 0.75em;
+  }
+  
+  .main-component {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .todo-list {
+    text-align: left;
+  }
+  .todo-form {
+    margin: 0 auto;
+    text-align: center;
+    /* border: red solid 3px; */
+  }
+  ::placeholder {
+    color: aliceblue;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    opacity: 0.4;
+  }
+  
+  .todo-input,
+  .todo-button {
+    font-size: 1rem;
+    padding: 1em;
+    margin: 0;
+    border: none;
+    outline: none;
+    font-weight: bold;
+  }
+  .todo-input {
+    margin-bottom: 3em;
+    width: 100%;
+    background: #034074;
+    color: var(--bright-blue);
+    padding-left: 2em;
+    box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.5);
+  }
+  .todo-button {
+    color: var(--dark-blue);
+    background-color: var(--bright-blue);
+    /* box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.6); */
+  }
+  .todo-item {
+    /* width: 95%; */
+    margin: 0 auto;
+    background: var(--dark-blue);
+    color: var(--bright-blue);
+    font-size: 1rem;
+    padding: 1em;
+    padding-left: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+  }
+  .todo-container {
+    /* border: solid 3px greenyellow; */
+    box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.8);
+  }
+  .todo-list-container {
+    border-bottom: #3a506b 3px solid;
+  }
+  p {
+    margin: 0;
+  }
+  
+  .complete {
+    text-decoration: line-through;
+    color: #5bc0be;
+    opacity: 0.7;
+  }
+  
